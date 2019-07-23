@@ -103,6 +103,20 @@
                         display : 'block',
                         opacity : "1"
                     }
+                }, 
+                ".item" : function(i){
+                    console.log(i)
+                    return {
+                        0.2 : {
+                            opacity : "0"
+                        }, 
+                        1 :{
+                            opacity : "1"
+                        }, 
+                        options : {
+                            delay : i * 0.75
+                        }
+                    }
                 }
         }, 
         
